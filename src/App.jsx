@@ -14,15 +14,7 @@ import {
 } from '@material-ui/core';
 
 import PhotoCamera from '@material-ui/icons/';
-import { makeStyles } from '@material-ui/core/styles';
-
-const useStyles = makeStyles((theme) => ({
-  container: {
-    backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(8, 0, 6),
-  },
-}));
-
+import useStyles from './styles';
 const App = () => {
   const classes = useStyles();
   return (
