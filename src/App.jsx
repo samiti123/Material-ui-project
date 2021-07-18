@@ -70,8 +70,8 @@ const App = () => {
         </div>
         <Container className={classes.cardGrid} maxWidth='md'>
           <Grid container spacing={4}>
-            {cards.map(() => (
-              <Grid item>
+            {cards.map((card) => (
+              <Grid item key={card}>
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
