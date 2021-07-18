@@ -22,7 +22,7 @@ const App = () => {
       <CssBaseline />
       <AppBar>
         <Toolbar>
-          <PhotoCamera />
+          <PhotoCamera className={classes.icon} />
           <Typography variant='h6'>Photo Album</Typography>
         </Toolbar>
       </AppBar>
@@ -49,7 +49,7 @@ const App = () => {
               sentence as long as possible so we can see how does it look like
               on the screen
             </Typography>
-            <div>
+            <div className={classes.buttons}>
               <Grid container spacing={2} justify='center'>
                 <Grid item>
                   <Button variant='contained' color='primary'>
