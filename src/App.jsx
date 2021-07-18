@@ -12,11 +12,19 @@ import {
   Container,
 } from '@material-ui/core';
 
+import PhotoCamera from '@material-ui/icons/';
+
 const App = () => {
   return (
-    <div>
-      <Typography variant='h1'>Welcome Here!</Typography>
-    </div>
+    <>
+      <CssBaseline />
+      <AppBar>
+        <Toolbar>
+          <PhotoCamera />
+          <Typography variant='h6'>Photo Album</Typography>
+        </Toolbar>
+      </AppBar>
+    </>
   );
 };
 
