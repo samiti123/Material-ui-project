@@ -35,6 +35,16 @@ const App = () => {
             >
               Photo Album
             </Typography>
+            <Typography
+              variant='h5'
+              align='center'
+              color='textSecondary'
+              paragraph
+            >
+              Hello everyone this is a photo album and I'm trying to make this
+              sentence as long as possible so we cann see how does it look like
+              on the screen
+            </Typography>
           </Container>
         </div>
       </main>
