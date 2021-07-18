@@ -42,7 +42,7 @@ const App = () => {
               paragraph
             >
               Hello everyone this is a photo album and I'm trying to make this
-              sentence as long as possible so we cann see how does it look like
+              sentence as long as possible so we can see how does it look like
               on the screen
             </Typography>
           </Container>
