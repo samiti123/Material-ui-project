@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Typography,
   AppBar,
+  Button,
   Card,
   CardActions,
   CardContent,
@@ -45,6 +46,20 @@ const App = () => {
               sentence as long as possible so we can see how does it look like
               on the screen
             </Typography>
+            <div>
+              <Grid container spacing={2} justify='center'>
+                <Grid item>
+                  <Button variant='contained' color='primary'>
+                    See my Photos
+                  </Button>
+                </Grid>
+                <Grid item>
+                  <Button variant='outline' color='primary'>
+                    Secondary Action
+                  </Button>
+                </Grid>
+              </Grid>
+            </div>
           </Container>
         </div>
       </main>
